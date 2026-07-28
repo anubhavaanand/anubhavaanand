@@ -17,4 +17,4 @@ Android & full-stack developer who builds real things: an AI noise-canceling pho
 
 **Certifications:** 12× AMD AI Academy (LLM fine-tuning, AI Agents, vLLM, Triton Kernels, GPU Optimization) + Cisco Cybersecurity
 
-📫 anubhavanand354@gmail.com · [LinkedIn](https://linkedin.com/in/anubhavaanand)
+📫 anubhavanand354@gmail.com · [LinkedIn](https://linkedin.com/in/anubhavanandd)
