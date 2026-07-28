@@ -2,7 +2,7 @@
 
 Android & full-stack developer who builds real things: an AI noise-canceling phone, a 3D web simulator, a coding mentor with 8 AI personas. I work across Kotlin, TypeScript, Python, and Flutter — and I'm currently diving deep into DevOps.
 
-**Currently:** CSE @ Amity University, Greater Noida · Building [ChronoCoder](https://chronocoder1.onrender.com) · Learning Docker → CI/CD → Cloud
+**Currently:** CSE @ Amity University, Greater Noida · Building [ChronoCoder](https://chronocoder-1.onrender.com) · Learning Python → DevOps
 
 **What I build:**
 - [ChronoCoder](https://github.com/anubhavaanand/Chronocoder-1) — AI Python mentor with 8 expert personas (Live)
