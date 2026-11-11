@@ -31,7 +31,14 @@ for (let page = 1; page <= 10; page++) {
 }
 
 const owners = await Promise.all(
-  [...counts.keys()].map(async (login) => ({ login, n: counts.get(login) })),
+  [...counts.keys()].map(async (login) => {
+    let avatar = `https://github.com/${login}.png`;
+    try {
+      const user = await api(`/users/${login}`);
+      if (user.avatar_url) avatar = user.avatar_url;
+    } catch {}
+    return { login, avatar, n: counts.get(login) };
+  }),
 );
 
 const orgs = owners.sort((a, b) => b.n - a.n || a.login.localeCompare(b.login));
@@ -39,7 +46,7 @@ const orgs = owners.sort((a, b) => b.n - a.n || a.login.localeCompare(b.login));
 function block() {
   if (orgs.length === 0) return `${START}\n${END}`;
   const cell = (o) =>
-    `<a href="https://github.com/${o.login}"><img src="https://avatars.githubusercontent.com/${o.login}?s=40" width="20" height="20" align="absmiddle" alt="${o.login}"> @${o.login}</a>`;
+    `<a href="https://github.com/${o.login}"><img src="${o.avatar}" width="20" height="20" align="absmiddle" alt="${o.login}"> @${o.login}</a>`;
   const rowsCount = Math.ceil(orgs.length / 3);
   const base = Math.floor(orgs.length / rowsCount);
   const extra = orgs.length % rowsCount;
