@@ -15,4 +15,4 @@
   <img src="assets/pokemon-room.gif" width="846" alt="Pixel-art Pokémon bedroom at night, lit blue by the city">
 </p>
 
-<p align="center"><sub>Banner art is fan-made pixel art, sourced from <a href="https://github.com/hackwithdev/pixelartgifs">hackwithdev/pixelartgifs</a> — not my own work.<br>Pokémon © Nintendo / Game Freak. Torii scene © its original artist.</sub></p>
+<p align="center"><sub>Banner art is fan-made pixel art, — not my own work.<br>Pokémon © Nintendo / Game Freak. Torii scene © its original artist.</sub></p>
