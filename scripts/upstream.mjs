@@ -46,17 +46,18 @@ const orgs = owners
 
 function block() {
   if (orgs.length === 0) return `${START}\n${END}`;
-  const rows = orgs
-    .map(
-      (o) =>
-        `<a href="https://github.com/${o.login}"><img src="https://avatars.githubusercontent.com/${o.login}?s=40" width="20" height="20" align="absmiddle" alt="${o.login}"> @${o.login}</a>`,
-    )
-    .join("<br>\n");
+  const perRow = 3;
+  const cell = (o) =>
+    `<a href="https://github.com/${o.login}"><img src="https://avatars.githubusercontent.com/${o.login}?s=40" width="20" height="20" align="absmiddle" alt="${o.login}"> @${o.login}</a>`;
+  const lines = [];
+  for (let i = 0; i < orgs.length; i += perRow) {
+    lines.push(orgs.slice(i, i + perRow).map(cell).join("&nbsp;&nbsp;&nbsp;&nbsp;"));
+  }
   return `${START}
 ### Organizations
 
-<p>
-${rows}<br>
+<p align="center">
+${lines.join("<br>\n")}<br>
 <a href="${MORE}">More</a>
 </p>
 ${END}`;
