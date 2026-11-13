@@ -3,7 +3,7 @@
 </p>
 
 <!-- upstream:start -->
-### Contributed to
+### Contributions
 
 <p align="center"><a href="https://github.com/haritel97"><img src="https://avatars.githubusercontent.com/u/272227099?v=4" width="20" height="20" align="absmiddle" alt="haritel97"> @haritel97</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/purahan"><img src="https://avatars.githubusercontent.com/u/70795912?v=4" width="20" height="20" align="absmiddle" alt="purahan"> @purahan</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/NateTheGrappler"><img src="https://avatars.githubusercontent.com/u/181163522?v=4" width="20" height="20" align="absmiddle" alt="NateTheGrappler"> @NateTheGrappler</a></p>
 <p align="center"><a href="https://github.com/kubernetes-sigs"><img src="https://avatars.githubusercontent.com/u/36015203?v=4" width="20" height="20" align="absmiddle" alt="kubernetes-sigs"> @kubernetes-sigs</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/unstablebuild"><img src="https://avatars.githubusercontent.com/u/60412273?v=4" width="20" height="20" align="absmiddle" alt="unstablebuild"> @unstablebuild</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/wized2"><img src="https://avatars.githubusercontent.com/u/245696177?v=4" width="20" height="20" align="absmiddle" alt="wized2"> @wized2</a></p>
